@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Background",
+    "parent": "Hud",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Image",
+        "color": "0 0 0 0.59"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.138 0.16",
+        "anchormax": "0.92 0.854"
+      }
+    ]
+  },
+  {
+    "name": "NextLifestyle",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Button",
+        "command": "",
+        "close": "",
+        "color": "0.31 0.31 0.31 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.34 0.66",
+        "anchormax": "0.39 0.76"
+      }
+    ]
+  },
+  {
+    "name": "NextLifestyleIcon",
+    "parent": "NextLifestyle",
+    "components": [
+      {
+        "type": "UnityEngine.UI.RawImage",
+        "color": "1 1 1 1",
+        "url": "http://www.rigormortis.be/wp-content/uploads/rust-icon-512.png"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.1 0.1",
+        "anchormax": "0.9 0.9"
+      }
+    ]
+  },
+  {
+    "name": "LifestyleDisplay",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Text",
+        "color": "0 0 0 1",
+        "fontSize": 32,
+        "align": "MiddleRight"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.19 0.68",
+        "anchormax": "0.317 0.752"
+      }
+    ]
+  },
+  {
+    "name": "PreviousLifestyle",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Button",
+        "command": "",
+        "close": "",
+        "color": "0.31 0.31 0.31 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.13 0.66",
+        "anchormax": "0.18 0.76"
+      }
+    ]
+  },
+  {
+    "name": "PreviousLifestyleIcon",
+    "parent": "PreviousLifestyle",
+    "components": [
+      {
+        "type": "UnityEngine.UI.RawImage",
+        "color": "1 1 1 1",
+        "url": "http://www.rigormortis.be/wp-content/uploads/rust-icon-512.png"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.1 0.1",
+        "anchormax": "0.9 0.9"
+      }
+    ]
+  },
+  {
+    "name": "LifestylePanel",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Image",
+        "color": "0 0 0 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.05 0.15",
+        "anchormax": "0.475 0.65"
+      }
+    ]
+  },
+  {
+    "name": "LifestyleIcon",
+    "parent": "LifestylePanel",
+    "components": [
+      {
+        "type": "UnityEngine.UI.RawImage",
+        "color": "1 1 1 1",
+        "url": "http://www.rigormortis.be/wp-content/uploads/rust-icon-512.png"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.082 0.16",
+        "anchormax": "0.494 0.86"
+      }
+    ]
+  },
+  {
+    "name": "LifestyleChanges",
+    "parent": "LifestylePanel",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Text",
+        "color": "1 1 1 1",
+        "fontSize": 14,
+        "align": "MiddleCenter"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.529 0.796",
+        "anchormax": "0.793 0.86"
+      }
+    ]
+  },
+  {
+    "name": "Separator",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Image",
+        "color": "0 0 0 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.5 0.09",
+        "anchormax": "0.505 0.87"
+      }
+    ]
+  },
+  {
+    "name": "BottomSeparator",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Image",
+        "color": "0 0 0 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0 0.09",
+        "anchormax": "1 0.1"
+      }
+    ]
+  },
+  {
+    "name": "MainTitle",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Text",
+        "color": "0 0 0 1",
+        "fontSize": 36,
+        "align": "MiddleCenter"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.275 0.898",
+        "anchormax": "0.688 0.98"
+      }
+    ]
+  },
+  {
+    "name": "MainTitleBorder",
+    "parent": "Background",
+    "components": [
+      {
+        "type": "UnityEngine.UI.Image",
+        "color": "0 0 0 1"
+      },
+      {
+        "type": "RectTransform",
+        "anchormin": "0.26 0.864",
+        "anchormax": "0.7 0.88"
+      }
+    ]
+  }
+]
